@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+*.env
+
+# Virtual environment
+venv/
+env_name/
+env/
+ENV/
+env.bak/
+venv.bak/
+env_name/  # Your specific virtual environment folder
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Database files
+db.sqlite3
+*.sqlite3
+
+# Static files
+/static/
+/media/
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+*.py,cover
+
+# IDE settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Pytest
+.cache
+pytestdebug.log
